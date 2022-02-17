@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+.navbar{
+    padding-top: 3px; 
+    padding-bottom: 3px;
+    margin-top: -32px;
+    border-radius: 6px;
+    
+}
+.containerr{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.1)100%,rgba(0,0,0,0.5)50%), url(./pics/pagebg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 103vh;
+    padding: 50px;
+}
+.main_body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.1)100%,rgba(0,0,0,0.5)50%), url(/pics/pagebg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 103vh;
+    padding: 50px;
+}
+.name{
+   
+    margin-left: 2vw;
+    font-size: 7vh;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    color: black;
+   
+}
+
+.link1{
+    
+    margin-left: 2vw;
+    font-size: 3vh;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.Home{
+    
+    background-size: 80%;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    height: 85vh;
+    width: 100vw;
+}
+.content{
+    
+    position: absolute;
+    right: 5vw;
+    width: 37vw;
+    top: 2vw;
+    height: 50vh; 
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.heading{
+    
+    font-size: 3.5vw;
+    color: rgb(20, 20, 22);
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.cont{
+    
+    font-size: 2.0vw;
+    color: rgb(24, 24, 29);
+}
+
+.sign-up-option{
+    display: flex;
+    flex-direction: row;
+    
+}
+.sign-up-option{
+    display: flex;
+    margin-top: 20px;
+    
+}
+.sign-up-option li {
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style: none;
+}
+.sign-up-option li a{
+    
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    transition: 0.3s ease;
+}
+.sign-up-option li a:hover{
+    color: rgb(83, 80, 80);
+}
+.sharing{
+    
+    padding-top: 20px;
+    margin-top: 50px;
+    border-width: 20px;
+    border: 5px solid rgb(20, 19, 19);
+    border-radius: 5px;
+}
+.platforms{
+    color: rgb(29, 32, 32);
+    font-size: 20px;
+}
+.style_list{
+    display: flex;
+}
+.style_list li {
+   
+    list-style: none;
+}
+.quote{
+    
+    height: 150px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.image2{
+    height: 200px;
+   
+    padding-left: 300px;
+    margin-left: 300px;
+    margin-top: 60px;
+    transform: rotate(-30deg);
+}
+
+@media(max-width:1000px)
+{
+    .content{
+        margin: auto;
+        left: 5vw;
+        width: 80vw;
+        height: 100vh;
+    }
+    .Home{
+        
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .heading{
+        
+        font-size: 7vw;
+        font-weight: 500;
+    }
+    .cont{
+        
+        font-size: 3vw;
+        font-weight:500;
+    }
+}
+.image1{
+    height: 450px;
+    margin-left: 80px;
+    transform: rotate(-25deg);
+    
+}
+.written_material{
+   
+    height: 450px;
+}
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    background-color: rgb(145, 145, 145);
+    margin-bottom: 20px;
+    
+}
+.note_title{
+    padding: 5px;
+    background-color: white;
+}
+.note_text{
+    padding: 5px;
+    background-color: white;
+}
+.card{
+    background-color: white;
+    margin-right: 30px;
+}
+.addnote{
+    background-color: black;
+}
+.addnote :hover{
+    color: rgb(70, 68, 68);
+}
+.navbar-toggler{
+    color: black;
+}
+.active{
+    color: darkblue;
+}
+
+.search_btn{
+    color: white;
+    border-color: white;
+}
+
+
+
+.bodyy{
+    margin-left: 100px;
+   
+    height: 100%;
+}
